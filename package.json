@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "less": "^4.2.0",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.31"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "type": "module",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.7.7",
+    "vue-router": "^4.4.0"
+  }
+}

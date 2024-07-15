@@ -1,0 +1,35 @@
+---
+
+layout: home
+#editLink: false
+
+---
+<script setup>
+import { ref } from 'vue'
+import sericedata from './offer/service'
+import tabledata from './offer/index'
+const serviceData = ref(sericedata)
+const tableData = ref(tabledata)
+</script>
+<br/>
+<ClientOnly>
+  <Breadcrumb />
+  <br />
+</ClientOnly>
+
+<center>
+
+# 採用情報
+</center>
+
+  <ServiceInfo :data="serviceData">
+  </ServiceInfo>
+
+---
+
+  <h1>エンジニア募集</h1>
+  <br/>
+
+  <TableComponent :tableData="tableData">
+  </TableComponent>
+
