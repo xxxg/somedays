@@ -152,5 +152,8 @@
   } */
   .VPDoc[data-v-02c28f95] {
     padding: 0px 0px 0px;
-}
+  }
+  .el-table__row .cell{
+    white-space: pre-wrap; 
+  }
 }
