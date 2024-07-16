@@ -150,7 +150,7 @@
   .VPDoc.has-aside .content-container[data-v-02c28f95] {
     max-width: 888px;
   } */
-  .VPDoc[data-v-02c28f95] {
+  .VPDoc{
     padding: 0px 0px 0px;
   }
   .el-table__row .cell{

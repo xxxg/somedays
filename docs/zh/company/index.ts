@@ -35,7 +35,7 @@ const data = [
           },
           {
             "key": "合作公司",
-            "value": "サムデイズ株式会社\r\nhttp://www.somedays.jp/",
+            "value": "サムデイズ株式会社\r\n<a>http://www.somedays.jp/</a>",
           },
         ]
       }
