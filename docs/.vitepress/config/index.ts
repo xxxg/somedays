@@ -29,7 +29,6 @@ export default defineConfig({
 //       }
 //     ]
 //   },
-
 //   sitemap: {
 //     hostname: 'https://vitepress.dev',
 //     transformItems(items) {
