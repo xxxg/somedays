@@ -14,7 +14,7 @@ export default defineConfig({
   // 切换黑夜模式
   appearance: false,
   metaChunk: true,
-  lastUpdated: true,
+  lastUpdated: false,
 //   cleanUrls: true,
 //   metaChunk: true,
 

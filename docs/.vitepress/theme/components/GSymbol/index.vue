@@ -16,7 +16,7 @@
  
 <script>
 function unsupportedWarning(prop, useValue, allowValues) {
-	console.warn("[GSymbol] 可用的", prop, "值为", allowValues, "，填写的", JSON.stringify(useValue), "不受支持。");
+	//console.warn("[GSymbol] 可用的", prop, "值为", allowValues, "，填写的", JSON.stringify(useValue), "不受支持。");
 }
  
 export default {

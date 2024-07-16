@@ -8,7 +8,7 @@ export const jp = defineConfig({
     ['link',{ rel: 'icon', href:'assets/images/icon/icon.png'}]
   ],
   themeConfig: {
-    logo: '../public/assets/images/logo/home-logo.png',
+    logo: './assets/images/logo/home-logo.png',
     nav: nav(),
     footer: {
       message: "2024 Rebebuca All Rights Reserved 天津桑姆戴斯科技有限公司",
